@@ -1,0 +1,31 @@
+18:26:35.564 | [restartedMain] | INFO  | com.litchi.efklog.EfklogApplication - Starting EfklogApplication using Java 15.0.1 on litchiduandeMacBook-Pro.local with PID 3167 (/Users/litchi/Documents/my-github/efklog/target/classes started by litchi in /Users/litchi/Documents/my-github/efklog)
+18:26:35.566 | [restartedMain] | INFO  | com.litchi.efklog.EfklogApplication - No active profile set, falling back to default profiles: default
+18:26:35.611 | [restartedMain] | INFO  | o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+18:26:36.125 | [restartedMain] | INFO  | org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+18:26:36.135 | [restartedMain] | INFO  | o.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+18:26:36.136 | [restartedMain] | INFO  | org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+18:26:36.136 | [restartedMain] | INFO  | org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+18:26:36.137 | [restartedMain] | INFO  | org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+18:26:36.137 | [restartedMain] | INFO  | org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+18:26:36.137 | [restartedMain] | INFO  | org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+18:26:36.137 | [restartedMain] | INFO  | org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@76c455c3
+18:26:36.154 | [restartedMain] | INFO  | o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+18:26:36.178 | [restartedMain] | INFO  | o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+18:26:36.191 | [restartedMain] | INFO  | o.s.s.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+18:26:36.192 | [restartedMain] | INFO  | org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+18:26:36.239 | [restartedMain] | INFO  | com.litchi.efklog.EfklogApplication - Started EfklogApplication in 1.161 seconds (JVM running for 1.908)
+18:26:38.008 | [scheduling-1] | INFO  | c.litchi.efklog.SchedulingComponent - timespan: 1615631198008
+18:26:40.005 | [scheduling-1] | INFO  | c.litchi.efklog.SchedulingComponent - timespan: 1615631200005
+18:26:41.323 | [SpringContextShutdownHook] | INFO  | org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+18:26:41.324 | [SpringContextShutdownHook] | INFO  | o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+18:26:41.324 | [SpringContextShutdownHook] | INFO  | o.s.s.quartz.SchedulerFactoryBean - Shutting down Quartz Scheduler
+18:26:41.324 | [SpringContextShutdownHook] | INFO  | org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+18:26:41.325 | [SpringContextShutdownHook] | INFO  | org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+18:26:41.325 | [SpringContextShutdownHook] | INFO  | org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
